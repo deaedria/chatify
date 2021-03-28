@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatify App Register</title>
+    <meta name="description" content="Create your chatify account to start sending your messages quickly ">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom1.css">
+    
+    <!-- <link rel="preload" href="./assets/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'"> -->
+    <!-- <link rel="preload" href="./assets/css/custom.css" as="style" onload="this.rel='stylesheet'"> -->
+    <!-- <noscript><link rel="stylesheet" href="./assets/css/bootstrap.min.css"></noscript> -->
+    <!-- <noscript><link rel="stylesheet" href="./assets/css/custom.css"></noscript> -->
+</head>
+<body>
+    <!-- register page -->
+    <main class="container">
+        <div class="form-box">
+            <div class="back-page">
+                <a href="index.html"><img src="./assets/svg/back-arrow-icon.svg" alt="back arrow icon"></a> 
+                <h3>Register</h3>
+            </div>
+            <p>Let's create your account!</p>
+            <form class="form-register" method="post">
+                <div class="form-register-group">
+                    <input type="text" id="name-register" required>
+                    <label for="name-register">Name</label>
+                </div>
+                <div class="form-register-group">
+                    <input type="text" id="email-register" required>
+                    <label for="email-register">Email</label>
+                </div>
+                <div class="form-register-group">
+                    <input type="password" id="password-register" required>
+                    <img src="./assets/svg/eye-icon.svg" alt="eye icon">
+                    <label for="password-register">Password</label>
+                </div>
+                    <button type="submit" id="submit-register">Register</button><br/>
+                    <h4><span>Register with</span></h4>
+                    <button type="submit" id="google-register"><img src="./assets/svg/google-icon.svg" alt="google icon">Google</button><br/>
+            </form>
+        </div>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatify App - Chat List</title>
+    <meta name="description" content="It's easy to send your messages or connect with people. Chatify's online chat can help you meet them.">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom1.css">
+
+</head>
+<body>
+    <!-- chat list page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 bg-color">
+                <nav class="main-menu">
+                    <div class="first-nav-wrapper">
+                        <h5 class="title">Telegram</h5>
+                        <div class="nav-sm-device">
+                            <img src="./assets/svg/plus-icon.svg" alt="plus icon" class="fa-plus">
+                            <img src="./assets/svg/search-icon.svg" alt="search icon">
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="menu" onclick="menuToggle()">
+                            <img src="./assets/svg/menu-icon.svg" alt="menu icon">
+                        </div>
+                        <div class="menu-list">
+                            <ul>
+                                <li><img src="./assets/svg/settings-white-icon.svg" alt="settings icon"><a href="#">Settings</a></li>
+                                <li><img src="./assets/svg/contacts-white-icon.svg" alt="contacts icon"><a href="#">Contacts</a></li>
+                                <li><img src="./assets/svg/calls-icon.svg" alt="calls icon"><a href="call_history.html">Calls</a></li>
+                                <li><img src="./assets/svg/bookmark-white-icon.svg" alt="bookmark icon"><a href="#">Save messages</a></li>
+                                <li><img src="./assets/svg/invite-white-icon.svg" alt="invite icon"><a href="#">Invite Friends</a></li>
+                                <li><img src="./assets/svg/faq-white-icon.svg" alt="faq icon"><a href="#">Telegram FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-list-sm">
+                            <div class="top-menu">
+                                <div class="back" onclick="closeMenu()">
+                                    <img src="./assets/svg/right-arrow-icon.svg" alt="back arrow icon">
+                                </div>
+                                <img src="./assets/svg/settings-blue-icon.svg" alt="settings blue icon" class="right">
+                            </div>
+                            <div class="middle-menu">
+                                <img src="./assets/image/avatar-g.png" alt="photo profile account">
+                                <h5>Gloria Mckinney</h5>
+                            </div>
+                            <ul>
+                                <li><img src="./assets/svg/contacts-blue-icon.svg" alt="contacts blue icon"><a href="#">Contacts</a></li>
+                                <li><img src="./assets/svg/calls-blue-icon.svg" alt="calls blue icon" class="call-sm"><a href="call_history.html">Calls</a></li>
+                                <li><img src="./assets/svg/bookmark-blue-icon.svg" alt="bookmark blue icon"><a href="#">Save messages</a></li>
+                                <li><img src="./assets/svg/invite-blue-icon.svg" alt="invite blue icon"><a href="#">Invite Friends</a></li>
+                                <li><img src="./assets/svg/faq-blue-icon.svg" alt="faq blue icon"><a href="#">Telegram FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <section class="search-and-create"> 
+                    <div class="search-box">
+                        <div class="input-wrapper">
+                            <img src="./assets/svg/search-grey-icon.svg" alt="search grey icon">
+                            <input type="text" placeholder="Type your message...">
+                        </div>
+                    </div>  
+                    <img src="./assets/svg/plus-icon.svg" alt="plus icon" class="create">
+                </section>
+                <section class="chat-selection">
+                    <div class="item">All</div>
+                    <div class="item active">Important</div>
+                    <div class="item">Unread</div>
+                    <div class="item">Read</div>
+                </section>
+                <section class="chat-list">  
+                    <img src="./assets/image/avatar-a.png" alt="friend photo" class="profile-image">
+                    <div class="text">
+                        <h6>Theresa Webb <img src="./assets/svg/bell-icon.svg" alt="bell icon"></h6>
+                        <p class="check-already-read">Why did you do that</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">15:20</div>
+                        <div class="badge round">2</div>
+                    </div>
+                </section>
+                <section class="chat-list">   
+                    <img src="./assets/image/avatar-b.png" alt="friend photo" class="profile-image">
+                    <div class="text">
+                        <h6>Calvin Flores</h6>
+                        <p class="check-already-read">Hi, bro! Come to my house!</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">15:13</div>
+                        <div class="badge round">1</div>
+                    </div>
+                </section>
+                <section class="chat-list">   
+                    <img src="./assets/image/avatar-c.png" alt="friend photo" class="profile-image">
+                    <div class="text">
+                        <h6>Gregory Bell</h6>
+                        <p class="check-already-read">Will you stop ignoring me?</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">15:13</div>
+                        <div class="badge rounded-pill">164</div>
+                    </div>
+                </section>
+                <section class="chat-list">   
+                    <img src="./assets/image/avatar-d.png" alt="friend photo" class="profile-image">
+                    <div class="text">
+                        <h6>Soham Henry  <img src="./assets/svg/bell-icon.svg" alt="bell icon"></h6>
+                        <p>Me: Bro, just fuck off</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">8:30</div>
+                        <div>
+                            <img src="./assets/svg/check-blue-icon.svg" alt="check blue icon">
+                        </div>
+                    </div>
+                </section>
+                <section class="chat-list">  
+                    <a href="message.html">
+                        <img src="./assets/image/avatar-e.png" alt="friend photo" class="profile-image">
+                    </a>  
+                    <div class="text">
+                        <h6>Mother 💓</h6>
+                        <p>Me: Yes, of course come, ...</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">7:20</div>
+                        <div>
+                            <img src="./assets/svg/check-grey-icon.svg" alt="check grey icon">
+                        </div>
+                    </div>
+                </section>
+                <section class="chat-list">   
+                    <img src="./assets/image/avatar-f.png" alt="friend photo" class="profile-image">
+                    <div class="text">
+                        <h6>Brother</h6>
+                        <p>Ok. Good bay!</p>
+                    </div>
+                    <div class="chat-list-right align-items-end">
+                        <div class="time">Yesterday</div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-8">
+                <aside class="message-box">
+                    <p>Please select a chat to start messaging</p>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+    <script>
+        const menuToggle = () => {
+            const toggleMenu1 = document.querySelector('.menu-list');
+            toggleMenu1.classList.toggle('active');
+
+            document.querySelector('.menu-list-sm').style.removeProperty('visibility');
+            const toggleMenu2 = document.querySelector('.menu-list-sm');
+            toggleMenu2.classList.toggle('active-sm');
+        }
+        
+        const closeMenu = () => {
+            document.querySelector('.menu-list-sm').style.visibility='hidden';
+        }
+    </script>
+</body>
+</html>
